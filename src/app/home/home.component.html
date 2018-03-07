@@ -1,0 +1,26 @@
+<div class="jumbotron text-center">
+  <h1>Welcome To Angular 4 Session</h1>
+  <p class="animation" [@myAwesomeAnimation]='state' (click)="animateMe()">Todays Session is about Routing</p> 
+ <a [routerLink]="['/attendees']" >Go To Attendees</a>
+ <!-- <a (click)="goToAttendees()">Go To Attendees</a>-->
+</div>
+
+<div class="container">
+  <div class="row">
+    <div class="col-sm-4">
+      <h3>Why do we need Routing</h3>
+      <p>Navigation</p>
+      <p>passing data</p>
+    </div>
+    <div class="col-sm-4">
+      <h3>How to Create routes</h3>
+      <p>RouterModule</p>
+      <p>Routes</p>
+    </div>
+    <div class="col-sm-4">
+      <h3>Styling and Using Routes</h3> 
+      <p>RouterLink</p>
+      <p>Router navigation in ts</p>
+    </div>
+  </div>
+</div>

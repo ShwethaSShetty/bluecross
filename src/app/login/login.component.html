@@ -1,0 +1,39 @@
+<div>
+  <div class="image-header">
+    <img src="./assets/bcbsma-logo.png">
+    <img class="myblue-logo" src="./assets/myblue-logo.png">
+
+
+  </div>
+  <div class="main col-md-6 offset-md-3 col-sm-10 col-xs-12">
+    <div class="create-account">
+      Create Account
+    </div>
+    <div class="msg-txt">We'll send a text verification.Message and data rates may apply </div>
+    <form [formGroup]="loginGroup">
+      <div>
+        <mat-form-field class="example-full-width md-block">
+          <input matInput placeholder="Mobile Number*" formControlName="mblNumber">
+        </mat-form-field>
+        <span class="phone-req">000-000-0000 US only</span>
+      </div>
+      <div class="email-text">Use email instead</div>
+      <div>
+        <mat-form-field class="example-full-width">
+          <input matInput type="password" placeholder="password" formControlName="passwrd">
+        </mat-form-field>
+        <div class="requirement-wrapper">
+          <b>Password Requirements</b>
+          <div class="span-text-wrapper"><img class="green-tick" src="./assets/green-tick.png"><span class="span-txt">At least 8 characters</span></div>
+          <div class="span-text-wrapper"><img class="green-tick" src="./assets/green-tick.png"><span class="span-txt">Must include a number</span></div>
+          <div class="span-text-wrapper"><img class="green-tick" src="./assets/green-tick.png"><span class="span-txt">Must include an Upper case Letter</span></div>
+          <div class="span-text-wrapper"><img class="green-tick" src="./assets/green-tick.png"><span class="span-txt">Must include a special character @#$%()[]*!</span></div>
+        </div>
+      </div>
+      <mat-checkbox></mat-checkbox><span class="check-text">Yes i Wish to recieve information from Blue Cross Blue Shield of Massachusetts</span>
+      <div class="terms-wrapper">
+        <div class="terms-text">By clicking continue I agree to the blue cross blue schield of Massachusetts Terms of use and confidentiality </div>
+        <button mat-button (click)="login()">continue</button></div>
+    </form>
+  </div>
+</div>

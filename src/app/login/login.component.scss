@@ -1,0 +1,58 @@
+.image-header{
+    .myblue-logo{
+        height:42px;
+    }
+    border-bottom: 4px solid #1d75bc;
+    text-align: center;
+    padding: 20px 0px;
+}
+.main{
+    padding:10px ;
+    .create-account{
+        font-size: 26px;
+        color: #1d75bc;
+        padding: 10px 0px;
+    }
+    .msg-txt{
+        font-size: 18px;
+        padding: 10px 0px
+    }
+    .email-text{
+        text-align: center;
+        color: #1d75bc;
+        font-weight: 600;
+        padding: 16px 0px;
+    }
+    .phone-req{
+        display: block;
+        color: gray;
+        font-size: 14px;
+        margin-top: -12px;
+    }
+    .green-tick{
+        height: 12px;
+    }
+    .span-txt{
+        padding-left: 5px;
+    }
+    .span-text-wrapper{
+        padding: 8px 0;
+    }
+    .requirement-wrapper{
+        background-color: #e6e4e4;
+        margin-bottom: 20px;
+    }
+    .check-text{
+        font-weight: bold;
+        font-size: 13px;
+        padding-left: 5px;
+    }
+    button{
+        background-color: #1d75bc;
+        color: white;
+        padding: 5px 100px;
+    }
+    .terms-wrapper{
+        padding: 20px ;
+    }
+}
